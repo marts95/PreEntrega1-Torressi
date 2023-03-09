@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+/*font-family: 'Dancing Script', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/**font-family: 'Great Vibes', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/*font-family: 'Raleway', sans-serif;*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Header general para todos las páginas*/
+header {
+  background-color: #3d3d3d;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  height: 100px;
+  font-family: "Raleway", sans-serif;
+}
+header .logo {
+  display: flex;
+  float: left;
+  padding: 5px;
+}
+header .barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+header .barra li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+header .barra li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header .barra li a:hover {
+  color: #c17767;
+}
+
+/*Final de header general*/
+/*Main*/
+main {
+  font-family: "Raleway", sans-serif;
+  padding-block: 2rem;
+  padding-inline: 6rem;
+  background-color: #f2f2f2;
+}
+main h1 {
+  color: #c17767;
+  text-align: center;
+}
+main ul {
+  padding-top: 2rem;
+}
+main ul li {
+  list-style: circle;
+}
+
+/*Fin de main*/
+/*Footer*/
+footer {
+  background-color: #3d3d3d;
+  color: #f2f2f2;
+  font-size: 25px;
+  text-align: center;
+  padding-block: 2rem;
+}
+footer h2 {
+  font-size: 25px;
+}
+footer p {
+  padding-top: 1rem;
+}
+
+/*Fin de footer*//*# sourceMappingURL=estilos.css.map */
