@@ -52,17 +52,30 @@ main{
     padding-block: 2rem;
     padding-inline: 6rem;
     background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     h1{
         color: #c17767;
-        text-align: center
+        text-align: center;
     }
     ul{
         padding-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
         li{
-            list-style: circle;
+            list-style: none;
             font-size: 20px;
             font-weight: 550;
         }
+    }
+    .ejecuta{
+        text-align: center;
+        padding-block: 6rem;
+        font-size: 30px;
+        color: #3d3d3d;
     }
 }
 /*Fin de main*/
