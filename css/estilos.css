@@ -66,6 +66,8 @@ main ul {
 }
 main ul li {
   list-style: circle;
+  font-size: 20px;
+  font-weight: 550;
 }
 
 /*Fin de main*/
