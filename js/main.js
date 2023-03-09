@@ -31,7 +31,7 @@ function consultarPrecios() {
                 alert("Los bizcochos cuestan $250 los 100 gramos")
                 break
             case "5":
-                alert("Los cupcakes cuestan $2500 la docena o 250 cada uno")
+                alert("Los cupcakes cuestan $2500 la docena o $250 cada uno")
                 break
             default: 
                 console.error("Algo no funcinó bien. Este mensaje no lo debería ver.")
